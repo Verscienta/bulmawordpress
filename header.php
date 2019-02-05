@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 ?>
 
@@ -16,24 +16,24 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+	
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
-		<?php bulmapress_skip_link_screen_reader_text(); ?>
-		<header id="header">
-			<nav id="site-navigation" class="navbar" role="navigation">
+		<?php bulmawordpress_skip_link_screen_reader_text(); ?>
+		<header id="header" class="site-header">
+			<nav id="site-navigation" class="navbar" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
-					<?php bulmapress_home_link('navbar-item'); ?>
-					<?php bulmapress_blog_description('navbar-item is-muted'); ?>
-					<?php bulmapress_menu_toggle(); ?>
+					<?php bulmawordpress_home_link('navbar-item'); ?>
+					<?php bulmawordpress_blog_description('navbar-item is-muted'); ?>
+					<?php bulmawordpress_menu_toggle(); ?>
 				</div>
 				<div class="navbar-menu">
 					<div class="navbar-start"></div>
-					<?php bulmapress_navigation(); ?>
+					<?php bulmawordpress_navigation(); ?>
 				</div>
 			</nav>
 		</header>

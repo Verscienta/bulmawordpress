@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\frontend",
+    "\\frontend\\bulmawordpress",
+    "\\frontend\\bulmawordpress\\css",
+    "\\frontend\\bulmawordpress\\sass",
+    "\\frontend\\bulmawordpress\\sass\\base",
+    "\\frontend\\bulmawordpress\\sass\\components",
+    "\\frontend\\bulmawordpress\\sass\\overrides",
+    "\\frontend\\bulmawordpress\\sass\\settings",
+    "\\frontend\\bulmawordpress\\sass\\utilities"
+  ],
+  "SelectedNode": "\\webpack.config.js",
+  "PreviewInSolutionExplorer": false
+}

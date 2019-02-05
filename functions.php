@@ -1,18 +1,18 @@
 <?php
 /**
- * Bulmapress functions and definitions
+ * bulmawordpress functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 
 
-require get_template_directory() . '/functions/bulmapress_navwalker.php';
-require get_template_directory() . '/functions/bulmapress_helpers.php';
-require get_template_directory() . '/functions/bulmapress_custom_query.php';
+require get_template_directory() . '/functions/bulmawordpress_navwalker.php';
+require get_template_directory() . '/functions/bulmawordpress_helpers.php';
+require get_template_directory() . '/functions/bulmawordpress_custom_query.php';
 
-if ( ! function_exists( 'bulmapress_setup' ) ) :
+if ( ! function_exists( 'bulmawordpress_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -20,7 +20,7 @@ if ( ! function_exists( 'bulmapress_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function bulmapress_setup() {
+function bulmawordpress_setup() {
 	require get_template_directory() . '/functions/base.php';
 	require get_template_directory() . '/functions/post-thumbnails.php';
 	require get_template_directory() . '/functions/navigation.php';
@@ -31,7 +31,7 @@ function bulmapress_setup() {
 	require get_template_directory() . '/functions/scripts-styles.php';
 }
 endif;
-add_action( 'after_setup_theme', 'bulmapress_setup' );
+add_action( 'after_setup_theme', 'bulmawordpress_setup' );
 
 require get_template_directory() . '/functions/template-tags.php';
 require get_template_directory() . '/functions/extras.php';

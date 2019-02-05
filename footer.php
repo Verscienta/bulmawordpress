@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 ?>
 
@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="hero-body has-text-centered">
 			<div class="site-info">
-				<?php bulmapress_copyright_link(); ?>
+				<?php bulmawordpress_copyright_link(); ?>
 			</div><!-- .site-info -->
 		</div>
 	</div><!-- .container -->

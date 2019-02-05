@@ -2,7 +2,7 @@
 /**
  * Content Functions
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * @global int $content_width
  */
-function bulmapress_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'bulmapress_content_width', 640 );
+function bulmawordpress_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'bulmawordpress_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'bulmapress_content_width', 0 );
+add_action( 'after_setup_theme', 'bulmawordpress_content_width', 0 );

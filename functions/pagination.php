@@ -2,7 +2,7 @@
 /**
  * Pagination Functions
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 
 /**
@@ -10,16 +10,16 @@
  *
  * @link https://css-tricks.com/snippets/wordpress/add-class-to-links-generated-by-next_posts_link-and-previous_posts_link/
  */
-function bulmapress_pagination($args = [], $class = 'pagination') {
+function bulmawordpress_pagination($args = [], $class = 'pagination') {
 
 	if ($GLOBALS['wp_query']->max_num_pages <= 1) return;
 
 	$args = wp_parse_args( $args, [
 		'mid_size'           => 2,
 		'prev_next'          => false,
-		'prev_text'          => __('Older posts', 'bulmapress'),
-		'next_text'          => __('Newer posts', 'bulmapress'),
-		'screen_reader_text' => __('Posts navigation', 'bulmapress'),
+		'prev_text'          => __('Older posts', 'bulmawordpress'),
+		'next_text'          => __('Newer posts', 'bulmawordpress'),
+		'screen_reader_text' => __('Posts navigation', 'bulmawordpress'),
 		]);
 
 	$links     = paginate_links($args);

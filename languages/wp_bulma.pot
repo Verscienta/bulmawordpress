@@ -200,17 +200,17 @@ msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Bulmapress"
+msgid "bulmawordpress"
 msgstr ""
 
 #. Theme URI of the plugin/theme
 #@ _s
-msgid "http://bulmapress.com/"
+msgid "http://bulmawordpress.com/"
 msgstr ""
 
 #. Description of the plugin/theme
 #@ _s
-msgid "Hi. I'm a flexbox theme called Bulmapress."
+msgid "Hi. I'm a flexbox theme called bulmawordpress."
 msgstr ""
 
 #. Author of the plugin/theme

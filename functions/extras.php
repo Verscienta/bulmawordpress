@@ -2,7 +2,7 @@
 /**
  * Extra Functions
 *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 
 /**
@@ -11,7 +11,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function bulmapress_body_classes( $classes ) {
+function bulmawordpress_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -24,14 +24,14 @@ function bulmapress_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'bulmapress_body_classes' );
+add_filter( 'body_class', 'bulmawordpress_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for singularly identifiable articles.
  */
-function bulmapress_pingback_header() {
+function bulmawordpress_pingback_header() {
 	if ( is_singular() && pings_open() ) {
 		echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
 	}
 }
-add_action( 'wp_head', 'bulmapress_pingback_header' );
+add_action( 'wp_head', 'bulmawordpress_pingback_header' );

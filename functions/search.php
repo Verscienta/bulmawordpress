@@ -2,10 +2,10 @@
 /**
  * Search Functions
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 
-function bulmapress_search_form( $form ) {
+function bulmawordpress_search_form( $form ) {
     $form = '
     <form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
       <h2 class="widget-title is-bold">Search</h2>
@@ -18,4 +18,4 @@ function bulmapress_search_form( $form ) {
 
     return $form;
 }
-add_filter( 'get_search_form', 'bulmapress_search_form', 100 );
+add_filter( 'get_search_form', 'bulmawordpress_search_form', 100 );

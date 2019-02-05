@@ -4,17 +4,17 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Bulmapress
+ * @package bulmawordpress
  */
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('wrapper'); ?>>
 	<div class="container content">
 		<header class="entry-header">
-			<?php bulmapress_the_title('is-3'); ?>
+			<?php bulmawordpress_the_title('is-3'); ?>
 			<?php if ( 'post' === get_post_type() ) : ?>
 				<div class="entry-meta">
-					<?php bulmapress_posted_on(); ?>
+					<?php bulmawordpress_posted_on(); ?>
 				</div><!-- .entry-meta -->
 			<?php endif; ?>
 		</header><!-- .entry-header -->
@@ -22,7 +22,7 @@
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<footer class="entry-footer">
-			<?php bulmapress_entry_footer(); ?>
+			<?php bulmawordpress_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 	</div>
 </article><!-- #post-## -->
